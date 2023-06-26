@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.flex-container {
+    background-color: gray;
+    display: flex;
+    align-self: right;
+    justify-content: space-between;
+    height: 650px;
+    gap: 100px;
+    width: 800px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 10px solid brown;
+    
+
+
+
+
+
+}
+.heading {
+    color:rgb(230, 180, 176);
+}
+h1 {
+    color: antiquewhite;
+    margin: 60px;
+    margin-left: 10px;
+
+}
+
+
+.image {
+    color: white;
+    border: 3px solid black;
+    margin: -20px;
+    width: 20px;
+    height: 20px;
+
+}
+
+
+.name, .email, .password {
+    border: 3px solid brown;
+    padding: 50px;
+    border-radius: 10px;
+    height: 50px;
+    width: 500px;
+    flex-direction: column;
+    gap: 200px;
+    flex: 5;
+}
+/*.button {
+    color: white;
+    border-radius: 100px;
+    background-color: gray;
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+    margin-right: -100px;
+    
+}*/
+#checkbox {
+    color: white;
+    margin: 10px;
+
+
+}
+
+.account {
+    margin: 585px;
+    margin-left: -600px;
+    display: flex;
+    flex-shrink: 0;
+
+}
+label {
+    color: white;
+}
+p {
+    color: antiquewhite;
+    font-style: oblique;
+    
+}
+.summary {
+    margin: 20px;
+    margin-left: 10px;
+    color: white;
+}
